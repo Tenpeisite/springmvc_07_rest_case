@@ -16,6 +16,7 @@ public class UserController {
          System.out.println("book save ==>"+book);
          System.out.println("book2 save ==>"+book);
          System.out.println("bookthree save ==>"+book);
+         System.out.println("book3 save ==>"+book);
          return "{'module':'booksave success'}";
      }
 }
