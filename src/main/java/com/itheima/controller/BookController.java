@@ -13,6 +13,8 @@ public class BookController {
     @PostMapping
     public String save(@RequestBody Book book){
         System.out.println("book save ==> "+ book);
+                System.out.println("book save ==> "+ book);
+                System.out.println("book save ==> "+ book);
         return "{'module':'book save success'}";
     }
 
